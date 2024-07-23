@@ -1,0 +1,55 @@
+/* Estilo general para el QTabWidget */
+QTabWidget::pane {
+    border: 1px solid lightgray;
+    border-radius: 5px; /* Añadido borde redondeado */
+    background: white;  /* Fondo blanco para el panel */
+}
+
+/* Estilo para las pestañas del QTabBar */
+QTabBar::tab {
+    background: lightgray;
+    border: 1px solid gray;
+    border-radius: 5px; /* Añadido borde redondeado */
+    padding: 10px;
+    min-width: 100px; /* Ancho mínimo para las pestañas */
+    font-weight: bold; /* Texto en negrita para mejor visibilidad */
+}
+
+/* Estilo para la pestaña seleccionada */
+QTabBar::tab:selected {
+    background: white;
+    border-bottom: 2px solid #0078d7; /* Azul de acento */
+    color: #0078d7; /* Color de texto azul para pestaña activa */
+}
+
+/* Estilo para los botones */
+QPushButton {
+    background-color: #0078d7;
+    color: white;
+    border: none; /* Eliminado borde predeterminado */
+    border-radius: 5px;
+    padding: 8px 15px; /* Ajuste de padding para un botón más grande */
+    font-size: 14px; /* Tamaño de fuente aumentado */
+    font-weight: bold; /* Texto en negrita */
+    transition: background-color 0.3s; /* Transición suave para hover */
+}
+
+/* Estilo para el estado hover de los botones */
+QPushButton:hover {
+    background-color: #005a9e;
+}
+
+/* Estilo para los campos de texto */
+QLineEdit {
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 3px;
+    background: #f5f5f5; /* Fondo más claro para el campo de texto */
+    font-size: 14px; /* Tamaño de fuente adecuado */
+}
+
+/* Estilo para el enfoque en los campos de texto */
+QLineEdit:focus {
+    border-color: #0078d7; /* Cambio de color del borde cuando el campo está enfocado */
+    background: white; /* Fondo blanco para el campo de texto enfocado */
+}

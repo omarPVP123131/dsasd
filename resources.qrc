@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/">
+        <file>plantillas/tema_amarillo.json</file>
+        <file>plantillas/tema_amarillo_claro.json</file>
+        <file>plantillas/tema_amarillo_dorado.json</file>
+        <file>plantillas/tema_azul.json</file>
+        <file>plantillas/tema_citrico.json</file>
+        <file>plantillas/tema_indigo.json</file>
+        <file>plantillas/tema_lila.json</file>
+        <file>plantillas/tema_naranja.json</file>
+        <file>plantillas/tema_naranja_claro.json</file>
+        <file>plantillas/tema_oscuro.json</file>
+        <file>plantillas/tema_rojo.json</file>
+        <file>plantillas/tema_rosa.json</file>
+        <file>plantillas/tema_rosa_claro.json</file>
+        <file>plantillas/tema_teal.json</file>
+        <file>plantillas/tema_verde.json</file>
+        <file>plantillas/tema_verde_claro.json</file>
+        <file>styles/stylesheet.qss</file>
+        <file>styles/icons/venta.png</file>
+        <file>styles/icons/inventario.png</file>
+        <file>styles/icons/historial.png</file>
+        <file>styles/icons/clientes.png</file>
+        <file>styles/icons/proveedores.png</file>
+        <file>styles/icons/estadisticas.png</file>
+        <file>styles/icons/notas.png</file>
+        <file>styles/icons/calculadora.png</file>
+        <file>styles/icons/configuracion.png</file>
+        <file>styles/icons/servidor.png</file>
+        <file>styles/icons/reloj.png</file>
+        <file>styles/calculadora.qss</file>
+    </qresource>
+</RCC>

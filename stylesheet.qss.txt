@@ -1,0 +1,31 @@
+QTabWidget::pane { 
+    border: 1px solid lightgray; 
+}
+
+QTabBar::tab {
+    background: lightgray;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+QTabBar::tab:selected {
+    background: white;
+    border-bottom: 2px solid #0078d7; /* Blue accent */
+}
+
+QPushButton {
+    background-color: #0078d7;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: #005a9e;
+}
+
+QLineEdit {
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 3px;
+}
